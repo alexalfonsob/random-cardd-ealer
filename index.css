@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+    margin: 0;
+}
+.contenedor-header{
+	display: flex;
+  	justify-content: center;
+    margin-top: 20px;
+}
+
+.containerPrincipal{
+    width: 22em;
+    background-color: white;
+    border-radius: 15px
+}
+
+.cardHeart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 1em;
+    margin-left: 10px;
+    font-size:5em;
+   
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:4em;
+    font-size: 6em;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 1.2em;
+    margin-right: 10px;
+    font-size: 5em;
+   
+}
