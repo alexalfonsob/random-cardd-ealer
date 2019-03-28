@@ -18,9 +18,19 @@ window.onload = function() {
         }
 
   }
-
-    let numberAl = Math.round(Math.random()*9)+1;
+    let array = ['1','2','3','4','5','6','7','8','9','10', 'J','Q','K','A'];
+    let numberAl = Math.round(Math.random()*13)+1;
     let elemento = document.getElementById("number");
+    if (numberAl === 11){
+        numberAl = "J";
+    }else if (numberAl === 12){
+        numberAl = "Q";
+    }else if (numberAl === 13){
+        numberAl = "K";
+    }else if (numberAl === 14){
+        numberAl = "A";
+    }
+
     elemento.innerHTML = numberAl;
 
 }
